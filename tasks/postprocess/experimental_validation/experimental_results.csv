@@ -1,0 +1,11 @@
+Row_ID,Electrolyte,CE,LCE,Solvent_1,Solvent_2,Solvent_3,Solvent_4,Solvent_5,Salt_1,Salt_2,Salt_3,Method,Current,Capacity,Cycle,Reference
+1,"2 M LiFSI FDMBn:DME (1:1, vol%)",99.69,2.509,COc1cc(F)cc(OC)c1:3.749599744,COCCOC:4.815801154,,,,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:2,,,Aurbach,0.5,1,10,Helena
+2,"2 M LiFSI 3FA:DME (1:1, vol%)",99.71,2.538,COc1cccc(F)c1:4.376437009,COCCOC:4.815801154,,,,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:2,,,Aurbach,0.5,1,10,Helena
+3,"2 M LiFSI 4FPh:DME (1:1, vol%)",97.89,1.676,CCOC1=CC=C(F)C=C1:3.81706621,COCCOC:4.815801154,,,,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:2,,,Aurbach,0.5,1,10,Helena
+4,"2 M LiFSI TTFMST:DME (1:1, vol%)",93.14,1.164,CC1=CC=CC=C1OS(=O)(=O)C(F)(F)F:2.851790175,COCCOC:4.815801154,,,,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:2,,,Aurbach,0.5,1,10,Helena
+5,2 M LiFSI TMMPS,99.01,2.004,COCCC[Si](OC)(OC)OC:5.120946989,,,,,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:2,,,Aurbach,0.5,1,10,Helena
+6,2 M LiFSI HMODS,99.06,2.027,CO[Si](OC)(OC)O[Si](OC)(OC)OC:4.373572783,,,,,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:2,,,Aurbach,0.5,1,10,Helena
+7,2 M LiFSI TEMS,99.15,2.071,CCO[Si](OCC)(C)OCC:5.019629837,,,,,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:2,,,Aurbach,0.5,1,10,Helena
+8,2 M LiFSI TMMS,99.43,2.244,CO[Si](OC)(C)OC:7.010717956,,,,,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:2,,,Aurbach,0.5,1,10,Helena
+9,1 M LiFSI HEE1,99.77,2.638,CO[Si](OC)(C)OC:1.402143591,CCOC1=CC=C(F)C=C1:1.526826484,C1=CC=C(C=C1)F:2.122788762,FC(F)COCCOCC(F)(F):1.304302093,FC(F)COCCOCC(F)(F)(F):1.239597947,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:1,,,Aurbach,0.5,1,10,Helena
+10,1 M LiFSI HEE2,99.58,2.377,C1=CC=C(C=C1)F:2.122788762,CO[Si](OC)(C)OC:1.402143591,CCCCCC:1.529392652,FC(F)C(F)(F)COC(F)(F)C(F)F:1.320481554,FC(F)(F)COCCOCC(F)(F)(F):1.238258655,[Li+].[N-](S(=O)(=O)F)S(=O)(=O)F:1,,,Aurbach,0.5,1,10,Helena

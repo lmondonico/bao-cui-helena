@@ -1,0 +1,9 @@
+{
+  "r2": 0.693,
+  "rmse": 0.22,
+  "mae": 0.169,
+  "avg_preds_per_sample": 8.0,
+  "n_samples": 1000,
+  "training_time_seconds": 2778.9,
+  "training_time_minutes": 46.3
+}

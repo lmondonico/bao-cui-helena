@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.8,
+  "f1": 0.8,
+  "precision": 0.8,
+  "recall": 0.8,
+  "confusion_matrix": [
+    [
+      421,
+      101
+    ],
+    [
+      99,
+      379
+    ]
+  ],
+  "avg_preds_per_sample": 8.0,
+  "n_samples": 1000
+}

@@ -1,0 +1,51 @@
+{
+  "master_seed": 314159,
+  "head_mode": "ce_temperature_arrhenius",
+  "execution": {
+    "training_device": "cuda",
+    "precision": "bf16",
+    "deterministic_algorithms": true,
+    "python_hash_seed": 314159,
+    "cublas_workspace_config": ":4096:8",
+    "torch_threads": 2
+  },
+  "optimization": {
+    "batch_size": 128,
+    "pair_batch_size": 128,
+    "evaluation_batch_size": 256,
+    "max_epochs": 200,
+    "early_stopping_patience": 40,
+    "early_stopping_min_delta_validation_mse": 1e-07,
+    "backbone_freeze_epochs": 7,
+    "backbone_max_learning_rate": 0.0005,
+    "new_branch_max_learning_rate": 0.002,
+    "weight_decay": 0.004,
+    "gradient_clip_norm": 1.0,
+    "one_cycle_pct_start": 0.2,
+    "one_cycle_div_factor": 25.0,
+    "one_cycle_final_div_factor": 1000.0,
+    "molar_ratio_noise": 0.03,
+    "maximum_pairs_per_doi_formulation": 256,
+    "pair_difference_weight": 0.15,
+    "pair_monotonic_weight": 0.01,
+    "pair_monotonic_margin_standardized": 0.0
+  },
+  "cross_validation": {
+    "outer_folds": 5,
+    "inner_folds": 5,
+    "inner_fit_seed": "master_seed + 20000 + 100*outer_fold + inner_fold",
+    "refit_epochs": "half-up median of the five inner best epochs",
+    "members_per_outer_fold": 5,
+    "member_seed": "master_seed + 100*outer_fold + member",
+    "aggregation": "arithmetic mean of member predictions in log10 space"
+  },
+  "evaluation": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 315967,
+    "bootstrap_cluster": "Reference (DOI)",
+    "prediction_clip_log10_for_raw_metrics": [
+      -8.0,
+      10.0
+    ]
+  }
+}

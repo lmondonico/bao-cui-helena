@@ -1,0 +1,77 @@
+{
+  "cluster_bootstrap_95": {
+    "mae_log10": {
+      "lower_95": 0.05068520148097206,
+      "upper_95": 0.07139646989209217
+    },
+    "r2_log10": {
+      "lower_95": 0.9699922828216305,
+      "upper_95": 0.9841317556256682
+    },
+    "rmse_log10": {
+      "lower_95": 0.09750512727202905,
+      "upper_95": 0.13130129000910484
+    }
+  },
+  "doi_cluster_bootstrap_replicates": 10000,
+  "doi_cluster_bootstrap_seed": 315967,
+  "evaluation_design": {
+    "bootstrap": "resamples DOIs (Reference) with replacement",
+    "inner_selection": "5-fold inner CV per outer fold selects the refit epochs",
+    "members_per_outer_fold": 5,
+    "outer_folds": 5,
+    "outer_split": "groups of identical normalized composition and temperature never cross folds",
+    "prediction": "row-wise arithmetic mean of its held-out fold's member predictions in log10 space",
+    "seed_replicate": "each member index concatenated across the five held-out folds"
+  },
+  "metrics": {
+    "geometric_mean_fold_error": 1.1478475978572287,
+    "mae_log10": 0.05988422969665662,
+    "mae_raw_mPa_s": 43.08278317028103,
+    "median_fold_error": 1.068356242096384,
+    "pearson_log10": 0.9892889459783802,
+    "r2_log10": 0.9785526590715538,
+    "r2_raw_mPa_s": 0.6567125126336145,
+    "rmse_log10": 0.11311453544017616,
+    "rmse_raw_mPa_s": 1011.0421748981057,
+    "spearman_log10": 0.9885251314387624,
+    "within_factor_2": 0.9701974865350089,
+    "within_factor_3": 0.9897666068222621
+  },
+  "outer_fold_summary": {
+    "mae_log10": {
+      "mean": 0.05988422969665661,
+      "n": 5,
+      "sample_sd": 0.005021822977015103
+    },
+    "r2_log10": {
+      "mean": 0.9784904284158438,
+      "n": 5,
+      "sample_sd": 0.00541715791789035
+    },
+    "rmse_log10": {
+      "mean": 0.11242853518889984,
+      "n": 5,
+      "sample_sd": 0.01390694984194867
+    }
+  },
+  "rows": 5570,
+  "seed_replicate_summary": {
+    "mae_log10": {
+      "mean": 0.062031979493119546,
+      "n": 5,
+      "sample_sd": 0.0004585423779742017
+    },
+    "r2_log10": {
+      "mean": 0.9774726858466154,
+      "n": 5,
+      "sample_sd": 0.0005489282345580287
+    },
+    "rmse_log10": {
+      "mean": 0.1159205637665495,
+      "n": 5,
+      "sample_sd": 0.0014157898650199645
+    }
+  },
+  "unique_references": 346
+}

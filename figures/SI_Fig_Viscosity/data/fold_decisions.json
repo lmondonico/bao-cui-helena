@@ -1,0 +1,97 @@
+{
+  "1": {
+    "outer_fold": 1,
+    "selected_epoch": 180,
+    "inner_best_epochs": [
+      180,
+      170,
+      189,
+      161,
+      189
+    ],
+    "pooled_inner_rmse_log10": 0.12293988223189471,
+    "member_seeds": [
+      314260,
+      314261,
+      314262,
+      314263,
+      314264
+    ]
+  },
+  "2": {
+    "outer_fold": 2,
+    "selected_epoch": 170,
+    "inner_best_epochs": [
+      162,
+      170,
+      192,
+      165,
+      197
+    ],
+    "pooled_inner_rmse_log10": 0.11974688808189414,
+    "member_seeds": [
+      314360,
+      314361,
+      314362,
+      314363,
+      314364
+    ]
+  },
+  "3": {
+    "outer_fold": 3,
+    "selected_epoch": 181,
+    "inner_best_epochs": [
+      158,
+      188,
+      144,
+      192,
+      181
+    ],
+    "pooled_inner_rmse_log10": 0.11730827757728446,
+    "member_seeds": [
+      314460,
+      314461,
+      314462,
+      314463,
+      314464
+    ]
+  },
+  "4": {
+    "outer_fold": 4,
+    "selected_epoch": 183,
+    "inner_best_epochs": [
+      183,
+      176,
+      184,
+      188,
+      164
+    ],
+    "pooled_inner_rmse_log10": 0.1250251408827684,
+    "member_seeds": [
+      314560,
+      314561,
+      314562,
+      314563,
+      314564
+    ]
+  },
+  "5": {
+    "outer_fold": 5,
+    "selected_epoch": 184,
+    "inner_best_epochs": [
+      192,
+      180,
+      184,
+      168,
+      189
+    ],
+    "pooled_inner_rmse_log10": 0.12311961515973842,
+    "member_seeds": [
+      314660,
+      314661,
+      314662,
+      314663,
+      314664
+    ]
+  }
+}

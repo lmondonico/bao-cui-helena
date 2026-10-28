@@ -1,0 +1,33 @@
+# Python and notebook caches
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments and editor settings
+.venv*/
+venv/
+.vscode/
+*.DS_Store
+
+# Datasets hosted on Hugging Face
+/data/HELENA-CE-26.csv
+/data/HELENA-Viscosity-26.csv
+
+# Generated outputs
+/results/
+/tasks/inference/chunks_*/
+*.log
+events.out.tfevents.*
+*.npy
+*.npz
+!data/viscosity/viscosity_molecule_features.npz
+*.zip
+
+# Model artifacts (include the bundled reference models)
+*.pkl
+!tasks/baselines/electrolytomics/ce_models/minmax_scaler.pkl
+!tasks/baselines/electrolytomics/ce_models_helena/minmax_scaler.pkl
+*.pt
+!tasks/baselines/electrolytomics/lumo_models/fold_0/model_0/model.pt

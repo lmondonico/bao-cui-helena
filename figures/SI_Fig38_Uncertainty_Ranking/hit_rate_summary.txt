@@ -1,0 +1,9 @@
+Dataset n = 1000
+Dataset base rate CE > 99%   (LCE > 2.0): 44.0%  (440/1000)
+Dataset base rate CE > 99.5% (LCE > 2.3): 14.0%  (140/1000)
+
+Experimental: 6/8 = 75.0% achieved CE > 99%
+Experimental: 4/8 = 50.0% achieved CE > 99.5%
+
+Enrichment over base rate (CE > 99%)  : 1.70x
+Enrichment over base rate (CE > 99.5%): 3.57x

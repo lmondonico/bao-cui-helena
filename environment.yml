@@ -1,0 +1,30 @@
+name: helena
+channels:
+  - conda-forge
+variables:
+  PYTHONNOUSERSITE: "1"
+dependencies:
+  - python=3.12.12
+  - pip=25.3
+  - ipykernel=7.1.0
+  - matplotlib=3.10.8
+  - networkx=3.6.1
+  - numpy=2.4.0
+  - pandas=2.3.3
+  - pillow=12.0.0
+  - nvidia-ml-py=13.590.44
+  - pytorch=2.14.1
+  - rdkit=2025.09.3
+  - regex=2025.11.3
+  - scikit-learn=1.8.0
+  - scipy=1.16.3
+  - seaborn=0.13.2
+  - statsmodels=0.14.6
+  - tqdm=4.67.1
+  - xgboost=3.1.2
+  - pip:
+      - torch-geometric==2.6.1
+      - pyarrow==26.0.0
+      - fvcore==0.1.5.post20221221
+      - umap-learn==0.5.12
+      - openTSNE==1.0.4
